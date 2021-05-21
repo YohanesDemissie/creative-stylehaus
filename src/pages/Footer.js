@@ -7,18 +7,13 @@ import '../styles/footer.css';
 const Footer = () => {
   return(
     <div className="footer-container">
-      {/* padding
-      Quote:
-      social media icons
-      copy right info
-      padding */}
       <p className="footer-quote">It Will Be Our Honor To Serve You In The Ministry Of FASHION.</p>
       <p className="footer-number">469.665.9580</p>
       <div className="social-media-icons-wrapper">
         <a href='https://www.facebook.com/HarlemHaberdashery/'>
           <img src={FacebookIcon} className="social-media-icons" />
         </a>
-        <a href='https://www.instagram.com/haberdasherynyc/'>
+        <a href='https://www.instagram.com/catrinathecreative/?hl=en'>
           <img src={InstagramIcon} sty className="social-media-icons"/>
         </a>
         <a href='https://twitter.com/haberdasherynyc/'>
@@ -26,8 +21,6 @@ const Footer = () => {
         </a>
       </div>
       <p className="footer-number">©2020 by THE CREATIVE STYLEHAUS FASHION FIRM.</p>
-
-
   </div>
   )
 }

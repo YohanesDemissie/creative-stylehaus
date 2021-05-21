@@ -1,10 +1,14 @@
 import React from 'react';
 import RunwayImage from '../assets/photos/runway.jpg';
+import Navbar from './Navbar';
 import '../styles/home.css'
+import Contact from './Contact';
+import Footer from './Footer';
 
 const Home = () => {
   return (
     <div>
+      <Navbar />
       {/* <h1 className="home-title">The CREATIVE STYLEHAUS</h1> */}
       <div className="home-runway-container">
        <h1>THE CREATIVE
@@ -26,6 +30,8 @@ const Home = () => {
       <div className="home-runway-container-three">
         <h1>Schedule your free consultation today with <u>Catrina the Creative!</u></h1>
       </div>
+      <Contact />
+      <Footer />
     </div>
   )
 }

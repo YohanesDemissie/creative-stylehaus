@@ -11,19 +11,19 @@ const Contact = () => {
       <form encType="multipart/form-data" action="mailto:info@w3docs.com" method="GET" >
       <div>
         <label htmlFor="name">
-          <input className="input-form" type="text" name="name" id="name" placeholder="Name"/>
+          <input className="input-form" type="text" name="name" id="name" placeholder="Name" />
         </label>
       </div>
       <br />
       <div>
         <label htmlFor="email">
-          <input className="input-form" type="text" name="email" id="email" placeholder="Email"/>
+          <input className="input-form" type="text" name="email" id="email" placeholder="Email" />
         </label>
       </div>
       <br />
       <div>
         <label htmlFor="subject">
-          <input className="input-form" type="subject" name="subject" id="subject" placeholder="Subject"/>
+          <input className="input-form" type="subject" name="subject" id="subject" placeholder="Subject" />
         </label>
       </div>
       <br />
@@ -31,7 +31,7 @@ const Contact = () => {
       <div>
         <br />
         <label htmlFor="email">
-        <input className="input-message-form" name="Inquiry" type="text" placeholder="Send your comments to us." />
+        <input type="search" className="input-message-form" name="Inquiry" type="text" placeholder="Send your comments to us." />
         </label>
       </div>
       <div>

@@ -9,6 +9,11 @@ img {
 	width: 10%;
 }
 
+a {
+	text-decoration: none;
+	color: #fe4098;
+}
+
 ul {
 	display: flex;
 	justify-content: space-around;
@@ -18,4 +23,11 @@ ul {
 nav ul li {
 	text-decoration: none;
 	display: inline-flex;
+	padding: 5px;
+	cursor: pointer;
+}
+
+li:hover {
+	background-color: white;
+	border-radius: 10px;
 }

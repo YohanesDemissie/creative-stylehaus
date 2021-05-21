@@ -10,14 +10,14 @@ const Navbar = () => {
       <nav>
             <img src={PinkLips} />
         <ul>
-          <li>HOME</li>
+          <li><a href="/home">HOME</a></li>
           <li>ABOUT</li>
           <li>PORTFOLIO</li>
           {/* <li>PUBLISHED</li> */}
           <li>PRESS</li>
           <li>VIDEO</li>
           {/* <li>SHOP</li> */}
-          <li>SERVICES</li>
+          <li><a href="/services">SERVICES</a></li>
           <li>BIO</li>
           <li>CONTACT</li>
         </ul>
