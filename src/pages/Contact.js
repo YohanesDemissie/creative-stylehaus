@@ -4,38 +4,44 @@ import '../styles/contact.css';
 const Contact = () => {
   return(
     <div className="contact-container">
+              <a className="contact-title" href="mailto:yohanes2o6@gmail.com?bcc=julie.patrick@clickdimensions.com&subject=Inquiring%20for%20New%20Year's%20Eve%20Party%20&body=Hi%20Catrina,%0d%0dI%20would%20like%20to%20RSVP%20to%20your%20party%20invitation.%20Here%20are%20my%20details:%0d%0dName:%20Eryka%20Adams%0dNumber%20of%20Guest:%0d" rel="EMAIL"><u>Click here </u>to reach out and start a conversation, today!</a>
+
       <h1 className="contact-title">Contact</h1>
 
-      <form action="mailto:info@w3docs.com" method="get" enctype="text/plain">
+      <form encType="multipart/form-data" action="mailto:info@w3docs.com" method="GET" >
       <div>
-        <label for="name">
+        <label htmlFor="name">
           <input className="input-form" type="text" name="name" id="name" placeholder="Name"/>
         </label>
       </div>
       <br />
       <div>
-        <label for="email">
+        <label htmlFor="email">
           <input className="input-form" type="text" name="email" id="email" placeholder="Email"/>
         </label>
       </div>
       <br />
       <div>
-        <label for="email">
-          <input className="input-form" type="text" name="subject" id="subject" placeholder="Subject"/>
+        <label htmlFor="subject">
+          <input className="input-form" type="subject" name="subject" id="subject" placeholder="Subject"/>
         </label>
       </div>
       <br />
-      {/* <div>
-        <label>Inquiry:</label>
+
+      <div>
         <br />
-        <textarea name="Inquiry" rows="12" cols="35">Send your comments to us.</textarea>
+        <label htmlFor="email">
+        <input className="input-message-form" name="Inquiry" type="text" placeholder="Send your comments to us." />
+        </label>
       </div>
       <div>
-        <input type="submit" name="submit" value="Send" />
-        <input type="reset" name="reset" value="Clear Form" />
-      </div> */}
-    </form>
 
+        <input className="submit-button" type="submit" name="submit" value="Send" />
+        {/* <input type="reset" name="reset" value="Clear Form" /> */}
+      </div>
+        {/* <a className="contact-title" href="mailto:yohanes2o6@gmail.com?bcc=julie.patrick@clickdimensions.com&subject=Inquiring%20for%20New%20Year's%20Eve%20Party%20&body=Hi%20Catrina,%0d%0dI%20would%20like%20to%20RSVP%20to%20your%20party%20invitation.%20Here%20are%20my%20details:%0d%0dName:%20Eryka%20Adams%0dNumber%20of%20Guest:%0d" rel="EMAIL">Click here to reach out and start a conversation, today!</a> */}
+
+    </form>
     </div>
   )
 }
