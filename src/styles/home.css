@@ -1,0 +1,65 @@
+body {
+	background-color: pink;
+	color: pink;
+	/* background-image: url('https://specials-images.forbesimg.com/imageserve/1190217656/960x0.jpg?fit=scale'); */
+	background-repeat: no-repeat;
+	background-size: cover;
+	justify-content: center;
+}
+
+.home-title {
+	background-color: black;
+	align-self: center;
+	text-align: center;
+	margin: 0;
+}
+
+.home-runway-container {
+	text-align: center;
+	background-image: url('https://media1.popsugar-assets.com/files/thumbor/9C4PTIi25GK2NZNsSZ2-Ei5gK5Y/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2016/05/16/625/n/1922564/313ad555ab0ea184_GettyImages-531675632/i/Bella-Leading-Finale-Misha-Collection-Runway.jpg');
+	width: 100vw;
+	height: 100vh;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 300%;
+	text-shadow: black 2px 2px;
+}
+
+.home-sub-title-main {
+	margin: 0;
+	font-size: 50%;
+	margin-bottom: 70px;
+}
+
+.home-sub-title {
+	margin: 0;
+	font-size: 50%;
+}
+
+.home-runway-container-two {
+	text-align: center;
+	background-image: url('https://fashionista.com/.image/t_share/MTcwNjk0NTE1NjA5MzE0OTY3/milan-fashion-week-fall-2020-trends.png');
+	width: 100vw;
+	height: 100vh;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 300%;
+	text-shadow: black 2px 2px;
+}
+
+.home-runway-container-three {
+	text-align: center;
+	background-image: url('https://fashionista.com/.image/t_share/MTcwNTU0OTAwMTgxMTY1NzU4/london-fashion-week-fall-2020-trends.png');
+	width: 100vw;
+	height: 100vh;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 300%;
+	text-shadow: black 2px 2px;
+}

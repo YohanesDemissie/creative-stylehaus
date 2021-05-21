@@ -1,0 +1,21 @@
+nav {
+	background-color: black;
+	color: #fe4098;
+	margin: 0;
+	padding: 16px;
+}
+
+img {
+	width: 10%;
+}
+
+ul {
+	display: flex;
+	justify-content: space-around;
+	margin: 0;
+}
+
+nav ul li {
+	text-decoration: none;
+	display: inline-flex;
+}
