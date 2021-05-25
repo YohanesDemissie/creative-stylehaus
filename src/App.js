@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Footer from './pages/Footer';
 import Services from './pages/Services';
+import About from './pages/About';
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route path="/home" component={Home} />
         <Route path="/services" component={Services} />
+        <Route path="/about" component={About} />
+        <Route path="/contact" component={Contact} />
       </React.Fragment>
     </Router>
   );

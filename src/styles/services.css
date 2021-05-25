@@ -3,12 +3,19 @@
 	text-align: center;
 	color: pink;
 	font-size: 300%;
-	background-color: black;
-	margin-top: 0px;
-	padding-bottom: 20px;
+	background-color: #000000;
+	margin-top: 1%;
+	margin-bottom: 0px;
+	padding-top: 50px;
+	/* margin-bottom: 2%; */
 }
 
-p {
+.services-sub-title {
+	text-align: center;
+	margin-top: 0px;
+}
+
+.services-list {
 	background-color: black;
 	text-align: center;
 	padding-left: 20%;
@@ -24,5 +31,32 @@ p {
 }
 
 .service-items-container {
+	display: flex;
+	/* width: 100%; */
+	text-align: center;
+	justify-content: space-between;
+	margin-bottom: 20px;
 	background-color: black;
+	/* margin: 2% 2% 2% 2%; */
+}
+
+.runway-image {
+	width: 50%;
+}
+
+.runway-text {
+	/* margin-top: 10%; */
+	align-self: center;
+	text-align: center;
+
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: right;
+	color: pink;
+	font-size: 300%;
+	width: 100%;
+	background-color: black;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	vertical-align: text-bottom;
+	/* padding-bottom: 20px; */
 }
