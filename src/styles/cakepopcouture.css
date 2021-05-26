@@ -1,0 +1,13 @@
+.cake-pop-container {
+	text-align: center;
+}
+
+.cake-pop-title {
+	background-color: black;
+	font-size: 300%;
+	padding: 50px 0px 50px 0px;
+}
+
+.cake-pop-image {
+	width: 80%;
+}

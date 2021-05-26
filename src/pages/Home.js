@@ -1,5 +1,5 @@
 import React from 'react';
-import RunwayImage from '../assets/photos/runway.jpg';
+// import RunwayImage from '../assets/photos/runway.jpg';
 import Navbar from './Navbar';
 import '../styles/home.css'
 import Contact from './Contact';
@@ -9,7 +9,6 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      {/* <h1 className="home-title">The CREATIVE STYLEHAUS</h1> */}
       <div className="home-runway-container">
        <h1>THE CREATIVE
          <br />

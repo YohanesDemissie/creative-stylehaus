@@ -1,10 +1,9 @@
 import React from 'react';
 import '../styles/navbar.css'
 import PinkLips from '../assets/photos/pink-lips.png';
-import Contact from './Contact';
 
 function handleClick() {
-  window.scrollTo(999, 999, ({ behavior: "smooth" }));
+  window.scrollTo(9999, 9999);
 }
 
 const Navbar = () => {
@@ -15,13 +14,14 @@ const Navbar = () => {
         <ul>
           <li><a href="/home">HOME</a></li>
           <li><a href="/about">ABOUT</a></li>
-          <li>PORTFOLIO</li>
+          {/* <li>PORTFOLIO</li> */}
           {/* <li>PUBLISHED</li> */}
-          <li>PRESS</li>
-          <li>VIDEO</li>
+          {/* <li>PRESS</li> */}
+          {/* <li>VIDEO</li> */}
           {/* <li>SHOP</li> */}
           <li><a href="/services">SERVICES</a></li>
-          <li>BIO</li>
+          {/* <li>BIO</li> */}
+          <li><a href="/cake-pop-couture">CAKE POP COUTURE</a></li>
           <li onClick={handleClick}>CONTACT</li>
         </ul>
       </nav>
