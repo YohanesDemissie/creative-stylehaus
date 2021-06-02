@@ -13,7 +13,8 @@ body {
 
 .home-runway-container {
 	text-align: center;
-	background-image: url('https://media1.popsugar-assets.com/files/thumbor/9C4PTIi25GK2NZNsSZ2-Ei5gK5Y/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2016/05/16/625/n/1922564/313ad555ab0ea184_GettyImages-531675632/i/Bella-Leading-Finale-Misha-Collection-Runway.jpg');
+	/* background-image: url('https://media1.popsugar-assets.com/files/thumbor/9C4PTIi25GK2NZNsSZ2-Ei5gK5Y/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2016/05/16/625/n/1922564/313ad555ab0ea184_GettyImages-531675632/i/Bella-Leading-Finale-Misha-Collection-Runway.jpg'); */
+	background-image: url('../assets/photos/Bella.JPG');
 	width: 100vw;
 	height: 100vh;
 	background-attachment: fixed;
@@ -38,7 +39,8 @@ body {
 
 .home-runway-container-two {
 	text-align: center;
-	background-image: url('https://fashionista.com/.image/t_share/MTcwNjk0NTE1NjA5MzE0OTY3/milan-fashion-week-fall-2020-trends.png');
+	/* background-image: url('https://fashionista.com/.image/t_share/MTcwNjk0NTE1NjA5MzE0OTY3/milan-fashion-week-fall-2020-trends.png'); */
+	background-image: url('../assets/photos/Bella-three.png');
 	width: 100vw;
 	height: 100vh;
 	background-attachment: fixed;
@@ -51,8 +53,9 @@ body {
 
 .home-runway-container-three {
 	text-align: center;
-	background-image: url('https://fashionista.com/.image/t_share/MTcwNTU0OTAwMTgxMTY1NzU4/london-fashion-week-fall-2020-trends.png');
-	width: 100vw;
+	/* background-image: url('https://fashionista.com/.image/t_share/MTcwNTU0OTAwMTgxMTY1NzU4/london-fashion-week-fall-2020-trends.png'); */
+	background-image: url('https://www.essence.com/wp-content/uploads/2020/02/1206172351-1920x1080.jpg?width=1920&height=1080');
+	/* width: 100vw; */
 	height: 100vh;
 	background-attachment: fixed;
 	background-position: center;
