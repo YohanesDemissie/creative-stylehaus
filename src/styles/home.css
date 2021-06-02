@@ -8,10 +8,7 @@ body {
 }
 
 .home-title {
-	background-color: black;
-	align-self: center;
-	text-align: center;
-	margin: 0;
+	margin-top: 1%;
 }
 
 .home-runway-container {
@@ -25,6 +22,7 @@ body {
 	background-size: cover;
 	font-size: 300%;
 	text-shadow: black 2px 2px;
+	/* margin-top: 1%; */
 }
 
 .home-sub-title-main {
@@ -62,4 +60,5 @@ body {
 	background-size: cover;
 	font-size: 300%;
 	text-shadow: black 2px 2px;
+	margin-bottom: 1%;
 }

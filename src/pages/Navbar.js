@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/navbar.css'
-import PinkLips from '../assets/photos/pink-lips.png';
+// import PinkLips from '../assets/photos/pink-lips.png';
 
 function handleClick() {
   window.scrollTo(9999, 9999);
@@ -10,14 +10,14 @@ const Navbar = () => {
   return(
     <div>
       <nav>
-            <img src={PinkLips} />
+            {/* <img src={PinkLips} /> */}
         <ul>
           <li><a href="/home">HOME</a></li>
           <li><a href="/about">ABOUT</a></li>
           {/* <li>PORTFOLIO</li> */}
           {/* <li>PUBLISHED</li> */}
           {/* <li>PRESS</li> */}
-          {/* <li>VIDEO</li> */}
+          <li><a href="/videos">VIDEOS</a></li>
           {/* <li>SHOP</li> */}
           <li><a href="/services">SERVICES</a></li>
           {/* <li>BIO</li> */}

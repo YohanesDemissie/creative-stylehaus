@@ -6,6 +6,7 @@ import Services from './pages/Services';
 import About from './pages/About';
 import CakePopCouture from './pages/cakepopcouture';
 import Welcome from './pages/Welcome';
+import Videos from './pages/Videos';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route exact path="/" component={Welcome} />
         <Route path="/home" component={Home} />
         <Route path="/services" component={Services} />
+        <Route path="/videos" component={Videos} />
         <Route path="/about" component={About} />
         <Route path="/contact" component={Contact} />
         <Route path="/cake-pop-couture" component={CakePopCouture} />

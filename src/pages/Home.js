@@ -10,7 +10,7 @@ const Home = () => {
     <div>
       <Navbar />
       <div className="home-runway-container">
-       <h1>THE CREATIVE
+       <h1 className="home-title">THE CREATIVE
          <br />
          STYLEHAUS
          <br />
@@ -24,10 +24,10 @@ const Home = () => {
          <p className="home-sub-title">Ministering Service In Every Aspect Of Fashion.</p>
       </div>
       <div className="home-runway-container-two">
-        <h1>Where Creative minds meet creative solutions</h1>
+        <h1 className="home-title">Where Creative minds meet creative solutions</h1>
       </div>
       <div className="home-runway-container-three">
-        <h1>Schedule your free consultation today with <u>Catrina the Creative!</u></h1>
+        <h1 className="home-title">Schedule your free consultation today with <u>Catrina the Creative!</u></h1>
       </div>
       <Contact />
       <Footer />
