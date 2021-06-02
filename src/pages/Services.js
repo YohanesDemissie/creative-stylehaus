@@ -17,7 +17,7 @@ const Services = () => {
       </div>
       <div className="service-items-container">
         <h1 className="runway-text">RUNWAY PRODUCTION</h1>
-        <img className="runway-image" src="https://www.essence.com/wp-content/uploads/2020/02/1206170872-scaled.jpg?width=600" />
+        <img className="runway-image" src="https://www.essence.com/wp-content/uploads/2020/02/1206170872-scaled.jpg?" />
       </div>
 
       <div className="service-items-container">
