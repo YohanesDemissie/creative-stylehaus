@@ -3,7 +3,7 @@ import Navbar from './Navbar.js';
 import Contact from './Contact.js';
 import Footer from './Footer.js';
 import '../styles/services.css';
-import BellaFour from '../assets/photos/Bella-four.JPG';
+import BellaFour from '../assets/photos/Bella-four.png';
 import CSHPortrait from '../assets/photos/CSH-portrait.jpg';
 
 const Services = () => {
