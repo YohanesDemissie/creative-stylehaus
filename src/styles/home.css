@@ -13,9 +13,8 @@ body {
 
 .home-runway-container {
 	text-align: center;
-	/* background-image: url('https://media1.popsugar-assets.com/files/thumbor/9C4PTIi25GK2NZNsSZ2-Ei5gK5Y/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2016/05/16/625/n/1922564/313ad555ab0ea184_GettyImages-531675632/i/Bella-Leading-Finale-Misha-Collection-Runway.jpg'); */
-	/* background-image: url('../assets/photos/Bella.JPG'); */
-	background-image: url('https://www.frontdoorfashion.com/wp-content/uploads/2016/09/Front-Door-Fashion-Banner-Image.jpg');
+	background-image: url('../assets/photos/Bella.png');
+	/* background-image: url('https://www.frontdoorfashion.com/wp-content/uploads/2016/09/Front-Door-Fashion-Banner-Image.jpg'); */
 	width: 100vw;
 	height: 100vh;
 	background-attachment: fixed;
