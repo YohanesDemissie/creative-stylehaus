@@ -14,11 +14,11 @@ function App() {
       <React.Fragment>
         <Route exact path="/" component={Welcome} />
         <Route path="/home" component={Home} />
-        <Route path="/services" component={Services} />
-        <Route path="/videos" component={Videos} />
-        <Route path="/about" component={About} />
+        {/* <Route path="/services" component={Services} /> */}
+        {/* <Route path="/videos" component={Videos} /> */}
+        {/* <Route path="/about" component={About} /> */}
         <Route path="/contact" component={Contact} />
-        <Route path="/cake-pop-couture" component={CakePopCouture} />
+        {/* <Route path="/cake-pop-couture" component={CakePopCouture} /> */}
       </React.Fragment>
     </Router>
   );
