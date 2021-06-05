@@ -5,8 +5,18 @@ nav {
 	padding: 16px;
 }
 
-img {
+.logo-container {
+	display: flex;
+}
+
+.logo {
 	width: 10%;
+	padding: 1%;
+	margin-left: 3%;
+}
+
+.nav-title {
+	margin-top: 4%;
 }
 
 a {
