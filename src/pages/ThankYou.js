@@ -7,12 +7,15 @@ import '../styles/thankyou.css';
 const ThankYou = () => {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="thankyou-container">
-        <h1 className="thankyou">Thank you for reaching out! We look forward to getting back to you as soon as possible! In the mean time, feel free to browse our merch, services, and media content. Peace and blessings!</h1>
+        <h1 className="thankyou">THANK YOU! </h1>
+        <h2 className="thankyou-text">We look forward to getting back to you as soon as possible! In the mean time, feel free to browse our merch, services, and media content. 
+        <br />
+        <p className="thankyou-close">Peace and blessings!</p></h2>
         <a href="/home" className="home-button">Return Home</a>
       </div>
-      <Contact />
+      {/* <Contact /> */}
       <Footer />
     </div>
   )

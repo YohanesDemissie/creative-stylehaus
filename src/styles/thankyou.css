@@ -3,10 +3,19 @@
 	text-align: center;
 	margin-left: 15%;
 	margin-right: 15%;
+	margin-bottom: 2%;
 }
 
 .thankyou {
 	font-size: 100px;
+}
+
+.thankyou-text {
+	font-size: 60px;
+}
+
+.thankyou-close {
+	font-size: 25px;
 }
 
 .home-button {
