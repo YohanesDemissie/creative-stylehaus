@@ -6,17 +6,21 @@ nav {
 }
 
 .logo-container {
+	margin-top: 2%;
 	display: flex;
 }
 
 .logo {
-	width: 10%;
+	width: 4%;
+	height: 4%;
 	padding: 1%;
 	margin-left: 3%;
+	align-self: center;
 }
 
 .nav-title {
-	margin-top: 4%;
+	margin-top: 2%;
+	font-size: 16px;
 }
 
 a {

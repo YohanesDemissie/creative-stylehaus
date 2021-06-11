@@ -1,5 +1,5 @@
 body {
-	background-color: pink;
+	background-color: white;
 	color: pink;
 	/* background-image: url('https://specials-images.forbesimg.com/imageserve/1190217656/960x0.jpg?fit=scale'); */
 	background-repeat: no-repeat;
@@ -8,6 +8,11 @@ body {
 }
 
 .home-title {
+	margin-top: 4%;
+}
+
+.title-fashion-firm {
+	font-size: 50%;
 	margin-top: 1%;
 }
 

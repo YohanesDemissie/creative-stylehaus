@@ -9,5 +9,18 @@
 }
 
 .cake-pop-image {
-	width: 80%;
+	margin-top: 3%;
+	width: 70%;
+	background-color: black;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+.cake-pop-image-two {
+	margin-top: 3%;
+	width: 70%;
+	background-color: black;
+	margin-bottom: 3%;
+	padding-left: 15%;
+	padding-right: 15%;
 }

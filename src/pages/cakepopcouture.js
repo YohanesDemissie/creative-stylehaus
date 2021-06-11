@@ -11,10 +11,10 @@ const CakePopCouture = () => {
     <div>
       <Navbar />
       < div className="cake-pop-container">
-        <h1 className="cake-pop-title">CAKE POP COUTURE</h1>
+        {/* <h1 className="cake-pop-title">CAKE POP COUTURE</h1> */}
         <img className="cake-pop-image" src={CakePop} />
-        <img className="cake-pop-image" src={CakePopModel} />
-        <p>Click below for inquiries on catering</p>
+        <img className="cake-pop-image-two" src={CakePopModel} />
+        {/* <p>Click below for inquiries on catering</p> */}
       </div>
       <Contact />
       <Footer />

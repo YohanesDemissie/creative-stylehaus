@@ -14,7 +14,7 @@ const Home = () => {
          <br />
          STYLEHAUS
          <br />
-         FASHION  FIRM
+         <h1 className="title-fashion-firm">FASHION  FIRM</h1>
          </h1>
 
          <p className="home-sub-title-main">THE MINISTRY OF FASHION</p>
