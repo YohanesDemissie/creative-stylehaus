@@ -1,6 +1,6 @@
 nav {
 	background-color: black;
-	color: #fe4098;
+	color: white;
 	margin: 0;
 	padding: 16px;
 }
@@ -25,7 +25,7 @@ nav {
 
 a {
 	text-decoration: none;
-	color: #fe4098;
+	color: white;
 }
 
 ul {
@@ -43,5 +43,6 @@ nav ul li {
 
 li:hover {
 	background-color: white;
+	color: #fe4098;
 	border-radius: 10px;
 }
