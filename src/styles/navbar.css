@@ -26,6 +26,8 @@ nav {
 a {
 	text-decoration: none;
 	color: white;
+	/* margin-top: 0.4%; */
+	text-align: center;
 }
 
 ul {
@@ -45,4 +47,11 @@ li:hover {
 	background-color: white;
 	color: #fe4098;
 	border-radius: 10px;
+}
+
+a:hover {
+	background-color: white;
+	color: #fe4098;
+	border-radius: 10px;
+	/* padding-top: 1%; */
 }
