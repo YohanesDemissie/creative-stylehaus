@@ -7,7 +7,7 @@ const Welcome = () => {
   return (
     <div>
       <div className="top-content"></div>
-      <iframe src={"https://www.kapwing.com/e/613a64ef8a594000f02a772f"} width="100%" height="100%" allowFullscreen  allow="autoplay; fullscreen;" loop id="myVideo" type="video/mp4" />
+      <iframe src={"https://www.kapwing.com/e/613a64ef8a594000f02a772f?autoplay=1&mute=1"} width="100%" height="100%" allowFullscreen  allow="autoplay; encrypted-media" id="myVideo" type="video/mp4" />
       <div className="content"></div>
       <a href="/home" className="welcome-button">Enter The Ministry of Fashion</a>  {/* this may change later */}
     </div>
