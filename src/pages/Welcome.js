@@ -7,9 +7,7 @@ const Welcome = () => {
   return (
     <div>
       <div className="top-content"></div>
-      <video autoPlay={true} muted={true} loop={true} id="myVideo">
-        <source src={'https://www.kapwing.com/e/613a64ef8a594000f02a772f?autoplay=true'} type="video/mp4" />
-      </video>
+      <video src={"https://www.kapwing.com/e/613a64ef8a594000f02a772f"} autoPlay={true} muted={true} loop={true} id="myVideo" type="video/mp4" />
       <div className="content"></div>
       <a href="/home" className="welcome-button">Enter The Ministry of Fashion</a>  {/* this may change later */}
     </div>
