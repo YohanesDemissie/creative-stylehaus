@@ -56,6 +56,12 @@ body {
 	text-shadow: black 2px 2px;
 }
 
+.home-title-two {
+	padding-top: 15%;
+	margin-top: 1.5%;
+	vertical-align: middle;
+}
+
 .home-runway-container-three {
 	text-align: center;
 	/* background-image: url('https://fashionista.com/.image/t_share/MTcwNTU0OTAwMTgxMTY1NzU4/london-fashion-week-fall-2020-trends.png'); */

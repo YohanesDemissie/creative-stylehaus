@@ -2,6 +2,7 @@ import React from 'react';
 import Contact from './Contact';
 import Footer from './Footer';
 import Navbar from './Navbar';
+import CTCPortrait from '../assets/photos/CTCportrait.jpeg'
 import '../styles/about.css'
 
 const About = () => {
@@ -9,7 +10,7 @@ const About = () => {
     <div>
       <Navbar />
       <div className="about-container">
-        <img className="about-image" src="https://type4girl.com/wp-content/uploads/2021/04/12_20210409_113800_0011.png" />
+        <img className="about-image" src={CTCPortrait} />
         <h1 className="about-title">About</h1>
         <p className="about-sub-title">CREATIVE STYLE HAUS FASHION FIRM</p>
         <div class="about-text-container">
