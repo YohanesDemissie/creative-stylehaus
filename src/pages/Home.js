@@ -4,6 +4,7 @@ import Navbar from './Navbar';
 import '../styles/home.css'
 import Contact from './Contact';
 import Footer from './Footer';
+import ProductsPreview from './Products-Preview';
 
 const Home = () => {
   return (
@@ -29,6 +30,7 @@ const Home = () => {
       <div className="home-runway-container-three">
         <h1 className="home-title-two">Schedule your free consultation today with <u>Catrina the Creative!</u></h1>
       </div>
+      <ProductsPreview />
       <Contact />
       <Footer />
     </div>
